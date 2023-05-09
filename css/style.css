@@ -1,0 +1,14 @@
+ * {
+    box-sizing: border-box;
+ }
+
+.hero {
+    border: solid red;
+}
+.hero-image {
+    width: 10%;
+}
+.img {
+    width: 100%;
+    height: auto;
+}
