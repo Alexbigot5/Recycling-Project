@@ -44,3 +44,9 @@ p {
 .hero-image {
     width: 100%;
 }
+.question-text {
+    text-align: left;
+}
+.question-body {
+    /*max-width: 40rem;*/
+}
