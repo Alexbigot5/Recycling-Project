@@ -29,11 +29,6 @@ p {
     font-size: 16px;
     margin-bottom: 0;
 }
-
-.hero {
-    border: solid red;
-
-}
 .hero-text {
     text-align: left;
     padding-top: 3em;
