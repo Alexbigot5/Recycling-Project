@@ -44,7 +44,7 @@ h6 {
     line-height: 92.1%;
     margin-bottom: 0; 
 }
-.s1 {
+p.s1 {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -57,12 +57,12 @@ h6 {
     margin-bottom: 0;
 }
 s3 {
-    .s2 {
-        font-family: 'Nunito', sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        margin-bottom: 0;
-    }
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0;
+
 }
 p {
     font-family: 'Nunito', sans-serif;
@@ -108,17 +108,47 @@ a.button-text {
     color: white;
     text-decoration: none;
     letter-spacing: 0.15em;
-
-
 }
 .hero-image {
     width: 100%;
 }
 .features {
-    padding-top: 10em;
+    padding-top: 5em;
+    background-color: rgba(47, 147, 102, 0.3);;
+    padding-bottom: 5em;
 }
-
-
+.title-area {
+    margin-bottom: 5em;
+}
+.feature-area-title {
+    border-bottom: solid #376636;
+    width: 8em;
+    padding-bottom: .1em;
+}
+.feature-section {
+    border-top: solid #376636;
+    border-bottom: solid #376636;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 10em;
+}
+.feature-title {
+    margin-bottom: 2em;
+}
+.feature-text {
+    text-align: left;
+    border-top: #376636;
+    border-bottom: #376636;
+    padding-top: 2em;
+}
+p.feature-words {
+    padding-bottom: 2em;
+}
+.feature-mockup {
+    padding: 0;
+    border: solid #376636;
+    border-width: 3px;
+}
 
 
 .question-text {
