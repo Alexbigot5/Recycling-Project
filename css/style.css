@@ -148,6 +148,7 @@ p.feature-words {
     padding: 0;
     border: solid #376636;
     border-width: 3px;
+    margin: 0;
 }
 .recycling-facts {
     padding-top: 10em;
@@ -166,6 +167,20 @@ p.feature-words {
 }
 .stats-percentage {
     color: #F4682D;
+}
+.customer-facts {
+    padding-top: 10em;
+    padding-bottom: 10em;
+    background-color: #FDE7D7;
+}
+.chart-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    column-gap: 5em;
+}
+.chart-tagline {
+    margin-bottom: 2em;
 }
 
 .question-text {
