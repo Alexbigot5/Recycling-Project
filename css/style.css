@@ -36,6 +36,7 @@ h5 {
     font-size: 28px;
     line-height: 92.1%;
     margin-bottom: 0; 
+    color: white;
 }
 h6 {
     font-family: 'Merriweahter', serif;
@@ -56,12 +57,13 @@ p.s1 {
     font-size: 20px;
     margin-bottom: 0;
 }
-s3 {
+p.s3 {
 
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 0;
+    color: white;
 
 }
 p {
@@ -204,15 +206,53 @@ p.feature-words {
     border-radius: 25px;
 }
 .cp-card {
-    height: 22em;
+    height: 21.7em;
 }
 .card-text {
     padding-top: 1em;
 }
 .question-text {
     text-align: left;
-}
+    margin-bottom: 3em;
+    border-bottom: solid white;
+    padding-bottom: 1em;
 
+}
+.faqs {
+    padding-top: 10em;
+    padding-bottom: 10em;
+    background-color: #376636;
+}
+.faqs-title {
+    border-bottom: solid white;
+    width: 19em;
+    color: white;
+    margin-bottom: 3em;
+}
+h5.question-title {
+    color: white;
+}
+.empower {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: #FDE7D7;
+}
+.empower-title {
+    margin-bottom: 2em;
+}
+.empower-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.start-button {
+    border: solid black;
+    background-color: #376636;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    width: 17em;
+    margin-bottom: 2em;
+}
 .footer-background {
     background-color: #1F2124 ;
 }
