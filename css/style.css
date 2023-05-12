@@ -149,7 +149,24 @@ p.feature-words {
     border: solid #376636;
     border-width: 3px;
 }
-
+.recycling-facts {
+    padding-top: 10em;
+    padding-bottom: 10em;
+    background-color: #376636;
+}
+.facts-title {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.stats-item {
+    text-align: left;
+    padding-bottom: 2em;
+    color: white;
+}
+.stats-percentage {
+    color: #F4682D;
+}
 
 .question-text {
     text-align: left;
