@@ -70,16 +70,57 @@ p {
     font-size: 16px;
     margin-bottom: 0;
 }
+
+.hero {
+    background-color: #FDE7D7;
+}
 .hero-text {
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-text:nth-child(3) {
+    align-items: flex-start;
+}
+.hero-title {
     text-align: left;
-    padding-top: 3em;
+}
+.hero-description {
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 .hero-button {
     text-align: center;
+    width: 17em;
+    border: solid red;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    background-color: #376636;
+    border: solid black;
+}
+a.button-text {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+
+
 }
 .hero-image {
     width: 100%;
 }
+.features {
+    padding-top: 10em;
+}
+
+
+
+
 .question-text {
     text-align: left;
 }
