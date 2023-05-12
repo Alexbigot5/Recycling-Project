@@ -95,6 +95,12 @@ i {
     font-size: 30px;
     padding-right: .5em;
 }
+i.app-icon {
+    color: #000000;
+}
+.available {
+    text-align: center;
+}
 .hero {
     background-color: #FDE7D7;
 }
@@ -239,7 +245,6 @@ p.feature-words {
     margin-bottom: 3em;
     border-bottom: solid white;
     padding-bottom: 1em;
-
 }
 .faqs {
     padding-top: 10em;
@@ -277,7 +282,7 @@ h5.question-title {
     margin-bottom: 2em;
 }
 .footer-background {
-    background-color: #1F2124;
+    background-color: #000000;
     padding-top: 10em;
     padding-bottom: 10em;
 }
