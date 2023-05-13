@@ -19,12 +19,12 @@ $(document).ready(function() {
         $(this).css("box-shadow", "");
       });
       $(".card").mouseenter(function() {
-        $(this).css({"background-color": "#FBD3B6",
+        $(this).css({"background-color": "#01CBBA",
         "box-shadow": "4px 4px 4px rgba(0, 0, 0, 0.75",
       });
       });
       $(".card").mouseleave(function() {
-        $(this).css({"background-color": "#FDE7D7",
+        $(this).css({"background-color": "#01BBAA",
         "box-shadow": "",
       });
       });
