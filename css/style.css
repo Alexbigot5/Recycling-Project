@@ -95,12 +95,9 @@ i {
     font-size: 30px;
     padding-right: .5em;
 }
-i.app-icon {
-    color: #000000;
-}
-.available {
-    text-align: center;
-}
+/*.hero-area:nth-child(2) {
+   margin-right: calc(-100vw / 2 + 500px / 2);
+}*/
 .hero {
     background-color: #FDE7D7;
 }
@@ -140,7 +137,7 @@ a.button-text {
     letter-spacing: 0.15em;
 }
 .hero-image {
-    width: 100%;
+    width: 100%;*?
 }
 .features {
     padding-top: 5em;
