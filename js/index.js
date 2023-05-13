@@ -38,5 +38,15 @@ $(document).ready(function() {
         "box-shadow": "",
     });
     });
+    $("a.nav-item").mouseenter(function() {
+        $(this).css({"color": "#376636", 
+        "font-size": "24px",
+    });
+    });
+    $("a.nav-item").mouseleave(function() {
+        $(this).css({"color": "#000000", 
+        "font-size": "18px",
+    });
+    });
 });
   

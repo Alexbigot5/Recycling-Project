@@ -95,6 +95,13 @@ i {
     font-size: 30px;
     padding-right: .5em;
 }
+a.nav-item {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Merriweahter', serif;
+    font-weight: 400;
+}
 /*.hero-area:nth-child(2) {
    margin-right: calc(-100vw / 2 + 500px / 2);
 }*/
