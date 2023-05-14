@@ -108,12 +108,16 @@ a.nav-item {
 .hero {
     background-color: #FDE7D7;
 }
+.hero-area {
+    /* margin-right: 0px; */
+}
 .hero-text {
     margin-bottom: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+   /* margin-left: 0; */
 }
 .hero-text:nth-child(3) {
     align-items: flex-start;
